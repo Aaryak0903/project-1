@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📝 Complaint Hub</h1>
+</header>
+
+<div class="container">
+
+    <div class="form-card">
+        <input id="name" placeholder="Your Name">
+        <input id="category" placeholder="Category (Hostel, Food...)">
+        <textarea id="issue" placeholder="Describe your issue"></textarea>
+        <button onclick="submitComplaint()">Submit Complaint</button>
+    </div>
+
+    <h2>📌 Recent Complaints</h2>
+    <div id="complaints" class="grid"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
